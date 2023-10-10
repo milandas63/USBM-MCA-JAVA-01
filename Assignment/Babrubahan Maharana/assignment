@@ -1,0 +1,29 @@
+package babru1;
+
+import java.util.Scanner;
+
+public class pattern2 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n= sc.nextInt();
+        for (int i=1;i<n;i++){
+            for (int sp=n-i+1;sp>0;sp--){
+                System.out.print(" ");
+            }
+            for(int j=i;j>0;j--){
+                System.out.print("* ");
+            }
+            System.out.print("\n");
+        }
+//        for (int i=1;i<n-1;i++){
+//            for (int sp=i+2;sp>0;sp--){
+//                System.out.print(" ");
+//            }
+//            for (int j = i;j<n-1;j++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+    }
+}

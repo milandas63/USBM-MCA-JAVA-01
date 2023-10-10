@@ -1,1 +1,43 @@
 
+import java.util.*; 
+class GFG { 
+	static void printspace(int space) 
+	{ 
+		if (space == 0) 
+			return; 
+		System.out.print(" "); 
+
+		
+		printspace(space - 1); 
+	} 
+	static void printstar(int asterisk) 
+	{ 
+		 
+		if (asterisk == 0) 
+			return; 
+		System.out.print("* "); 
+
+		
+		printstar(asterisk - 1); 
+	} 
+
+	
+	static void printrow(int n, int num) 
+	{ 
+			if (n == 0) 
+			return; 
+		printspace(n - 1); 
+		printstar(num - n + 1); 
+		System.out.println(""); 
+		printrow(n - 1, num); 
+	} 
+
+	
+	public static void main(String[] args) 
+	{ 
+		Scanner sc = new Scanner(System.in); 
+		int rows = 5; 
+		printrow(rows, rows); 
+	} 
+} 
+

@@ -61,11 +61,13 @@
             =   A field may be final. If a field is final, the field becomes constant. The
             =   value of the field can't be changed after they are created.
             =   A method may be final. If a method is final, the same method can't be
-                overrided.
+                overridden.
 
         >   static
             =   A field may be static. If a field is static, all instances of that class
-                share common memory location for a static field.
+                share a common memory location for a static field.
+            =   All members of a class that are declared static are accessible by class
+                name reference.
 
         >   native
         >   synchronized

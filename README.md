@@ -1,25 +1,25 @@
 # USBM-MCA-JAVA-01
 MCA Batch-01
-*USBM MCA 2nd YEAR CANDIDATES
+#USBM MCA 2nd YEAR CANDIDATES
 -- -- -- -- -- -- -- -- -- -
-**Abhaykanta Sukla            Abhayakantasukla
-**Alok Kumar Lenka            LenkaAlok
-**Amit Behera                 amit3344
-**Ananya Bhaktimayee Panda    AnanyaBhaktimayee123            Not-found
-Anindita Das                Anindita-12
-Anshman Khadai              Anshuman.068                    Not-found
-Ashis Kumar Swain           Ashisswain08
-Ashish Kumar Das            2323silu
-Ashutosh Samal              Ashutosh-as-d
-Asita Das                   asita-12
-Astha Priyambada Sahoo      AsthaPriyambada
-Babrubahan Maharana         babru-12
-Baishakhi Samal             BaishakhiSamal123
-Bikash Kumar Jena           bikash030
-Biswajit Rout               BiswaJAV
-Biswajita Majhi             Biswajita2001
-Deeptisikha Mohanty         Deeptisikha2001
-Dinesh Sahu                 Dinesh9090775698
+## Abhaykanta Sukla            Abhayakantasukla
+## Alok Kumar Lenka            LenkaAlok
+## Amit Behera                 amit3344
+## Ananya Bhaktimayee Panda    AnanyaBhaktimayee123            Not-found
+## Anindita Das                Anindita-12
+## Anshman Khadai              Anshuman.068                    Not-found
+## Ashis Kumar Swain           Ashisswain08
+## Ashish Kumar Das            2323silu
+## Ashutosh Samal              Ashutosh-as-d
+## Asita Das                   asita-12
+## Astha Priyambada Sahoo      AsthaPriyambada
+## Babrubahan Maharana         babru-12
+## Baishakhi Samal             BaishakhiSamal123
+## Bikash Kumar Jena           bikash030
+## Biswajit Rout               BiswaJAV
+## Biswajita Majhi             Biswajita2001
+## Deeptisikha Mohanty         Deeptisikha2001
+## Dinesh Sahu                 Dinesh9090775698
 Gyanaranjan Das             Gyana-das
 Himanshu Biswal             HIMANSHUBISWAL
 Jaspal Barik                JaspalBarik

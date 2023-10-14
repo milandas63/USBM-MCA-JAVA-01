@@ -1,11 +1,11 @@
 # USBM-MCA-JAVA-01
 MCA Batch-01
-USBM MCA 2nd YEAR CANDIDATES
+*USBM MCA 2nd YEAR CANDIDATES
 -- -- -- -- -- -- -- -- -- -
-Abhaykanta Sukla            Abhayakantasukla
-Alok Kumar Lenka            LenkaAlok
-Amit Behera                 amit3344
-Ananya Bhaktimayee Panda    AnanyaBhaktimayee123            Not-found
+**Abhaykanta Sukla            Abhayakantasukla
+**Alok Kumar Lenka            LenkaAlok
+**Amit Behera                 amit3344
+**Ananya Bhaktimayee Panda    AnanyaBhaktimayee123            Not-found
 Anindita Das                Anindita-12
 Anshman Khadai              Anshuman.068                    Not-found
 Ashis Kumar Swain           Ashisswain08

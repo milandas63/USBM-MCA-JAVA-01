@@ -21,13 +21,12 @@
         JComboBox cbCourse;
         JComboBox cbDepartment;
 
-ASSIGNMENT:
-    Complete the program by giving event to the "Save" button.
-
-    
     =   Event handling in Java Swing
         Add a "Submit" button at the bottom of the form. On clicking Submit, the
         form data is saved into the Student-Info.csv file.
+
+    =   ASSIGNMENT:
+        Complete the program by giving the event to "Save" button.
 
 
 

@@ -1,4 +1,4 @@
-=   ABSTRACTION	ENCAPSULATION
+=   ABSTRACTION	vs. ENCAPSULATION
     1.	Abstraction is the process or method of gaining the information.
         While encapsulation is the process or method to contain the information.
     2.	In abstraction, problems are solved at the design or interface level.

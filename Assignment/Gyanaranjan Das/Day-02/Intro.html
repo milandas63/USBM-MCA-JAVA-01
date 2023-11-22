@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Introduction to JavaScript</title>
+    </head>
+    <body>
+        <script>
+            document.writeln("<h1 align=''>Pyramid of Astericks</h1>");
+            document.writeln("<hr><tt>");
+            var sp = 40;
+            var st = 1;
+            for(var i=1; i<=9; i++) {
+                for(var j=1; j<=sp; j++) document.write("&nbsp;");
+                for(var j=1; j<=st; j++) document.write("*");
+                document.writeln("<br>");
+                st+=2; sp--;
+            }
+            document.writeln("<br>");
+            document.writeln("<br>");
+
+            document.writeln("<h1 align=''>Pyramid of Palindrome</h1>");
+            document.writeln("<hr>");
+            var sp = 40;
+            for(var i=1; i<=9; i++) {
+                for(var j=1; j<=sp; j++) document.write("&nbsp;");
+                for(var j=1; j<=i; j++) document.write(j);
+                for(var j=(i-1); j>=1; j--) document.write(j);
+                document.writeln("<br>");
+                sp--;
+            }
+            document.writeln("<br>");
+            document.writeln("<br>");
+
+            document.writeln("<h1 align=''>Reverse a string</h1>");
+            document.writeln("<hr>");
+            var str = "Quick Brown Fox Jumps Over The Lazy Dog";
+            for(var i=str.length-1; i>=0; i--) {
+                document.write(str.charAt(i));
+            }
+
+            document.writeln("<h1 align=''>Prime Number Generator</h1>");
+            document.writeln("<hr>");
+            var from = 2000;    //prompt("Start Number: ");
+            var to = 4000;      //prompt("End Number: ");
+            var yesNo;
+            var count = 0;
+
+            for(var i=from; i<=to; i++) {
+                yesNo = true;
+                for(var j=2; j<i; j++) {
+                    if(i%j==0) {
+                        yesNo = false;
+                        break;
+                    }
+                }
+
+                if(yesNo) {
+                    document.writeln(i);
+                    count++;
+                    if(count>=10) {
+                        count = 0;
+                        document.writeln("<br>");
+                    }
+                }
+            }
+
+            document.writeln("<h1 align=''>Multiplication Tables</h1>");
+            document.writeln("<hr>");
+            var from = 2;   //prompt("Start Number: ");
+            var to = 55;    //prompt("End Number: ");
+            count = 0;
+            document.writeln("<table border='1'>");
+            document.writeln("<tr>");
+            for(var i=from; i<=to; i++) {
+                document.writeln("<td>");
+                document.writeln("<table>");
+                for(var j=1; j<=10; j++) {
+                    document.writeln("<tr>");
+                        document.writeln("<td align='right'>"+i+"</td>");
+                        document.writeln("<td align='center'>x</td>");
+                        document.writeln("<td align='right'>"+j+"</td>");
+                        document.writeln("<td align='center'>=</td>");
+                        document.writeln("<td align='right'>"+(i*j)+"</td>");
+                        document.writeln("</tr>");
+                }
+                document.writeln("</table>");
+                document.writeln("</td>");
+                count++;
+                if(count>=5) {
+                    document.writeln("</tr>");
+                    document.writeln("<tr>");
+                    count = 0;
+                }
+            }
+            document.writeln("</tr>");
+            document.writeln("</table>");
+
+            document.writeln("<h1 align=''>Alphabet Occurance</h1>");
+            document.writeln("<hr>");
+            var alphaCount = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+            var text = "I am going to Kolkata";
+            var c;
+            for(var i=0; i<text.length; i++) {
+                c = text.charCodeAt(i);
+                if(c>=65 && c<=90) {
+                    alphaCount[c-65]++;
+                } else if(c>=97 && c<=122) {
+                    alphaCount[c-97]++;
+                }
+            }
+            for(var i=0; i<alphaCount.length; i++) {
+                if(alphaCount[i]>0) {
+                    document.writeln( String.fromCharCode(i+65) + " = " + alphaCount[i] + "<br>");
+                }
+            }
+
+
+            document.writeln("</tt>");
+
+        </script>
+    </body>
+</html>
